@@ -14,6 +14,10 @@
 		AF02096B2C60CDBC00D91041 /* Photorama_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02096A2C60CDBC00D91041 /* Photorama_SwiftUITests.swift */; };
 		AF0209752C60CDBC00D91041 /* Photorama_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0209742C60CDBC00D91041 /* Photorama_SwiftUIUITests.swift */; };
 		AF0209772C60CDBC00D91041 /* Photorama_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0209762C60CDBC00D91041 /* Photorama_SwiftUIUITestsLaunchTests.swift */; };
+		AF0209842C60D32700D91041 /* FilickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0209832C60D32700D91041 /* FilickerAPI.swift */; };
+		AF0209862C60E5A200D91041 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0209852C60E5A200D91041 /* PhotoStore.swift */; };
+		AF0209882C61145000D91041 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0209872C61145000D91041 /* Photo.swift */; };
+		AF02098A2C615BF100D91041 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0209892C615BF100D91041 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		AF0209702C60CDBC00D91041 /* Photorama SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photorama SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0209742C60CDBC00D91041 /* Photorama_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		AF0209762C60CDBC00D91041 /* Photorama_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photorama_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF0209832C60D32700D91041 /* FilickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilickerAPI.swift; sourceTree = "<group>"; };
+		AF0209852C60E5A200D91041 /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		AF0209872C61145000D91041 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		AF0209892C615BF100D91041 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				AF0209592C60CDBA00D91041 /* Photorama_SwiftUIApp.swift */,
 				AF02095B2C60CDBA00D91041 /* ContentView.swift */,
+				AF0209892C615BF100D91041 /* DetailView.swift */,
+				AF0209872C61145000D91041 /* Photo.swift */,
+				AF0209852C60E5A200D91041 /* PhotoStore.swift */,
+				AF0209832C60D32700D91041 /* FilickerAPI.swift */,
 				AF02095D2C60CDBB00D91041 /* Assets.xcassets */,
 				AF02095F2C60CDBB00D91041 /* Preview Content */,
 			);
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF02095C2C60CDBA00D91041 /* ContentView.swift in Sources */,
+				AF02098A2C615BF100D91041 /* DetailView.swift in Sources */,
+				AF0209842C60D32700D91041 /* FilickerAPI.swift in Sources */,
+				AF0209862C60E5A200D91041 /* PhotoStore.swift in Sources */,
 				AF02095A2C60CDBA00D91041 /* Photorama_SwiftUIApp.swift in Sources */,
+				AF0209882C61145000D91041 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@ struct Photorama_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+
         }
     }
 }
